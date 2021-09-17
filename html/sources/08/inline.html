@@ -2,20 +2,33 @@
 <html lang="ko">
 	<head>
 		<meta charset="UTF-8">
-		<title>블록 레벨과 인라인 레벨</title>
 		<style>
-			body  * {
-				border:1px solid blue;
+			h1 {
+				
+				border:1px solid #000;
 			}
-			.accent {
-				color:red;
-				font-weight:bold;
+			#dox1 { 
+				display:inline-block;
+				background: blue;
+				padding:20px 30px 40px 50px;  
 			}
-		</style>
+			#dox2 {
+				display:inline-block;
+				padding:20px 30px;
+			}
+			#span {
+				display:inline-block;
+				padding:20px;
+			}
+	  </style>
+		<title>블록 레벨과 인라인 레벨</title>
 	</head>
+	}
 	<body>
-		<h1>시간이란...</h1>
-		<div>내일 죽을 것처럼 <span class="accent">오늘</span>을 살고 </div>
-		<p>영원히 살 것처럼 <br>내일을 꿈꾸어라. </p>	  
+		<div class ="box1">
+		</div>
+		<div class="box2"></div>
+		<div class = "box3"></div>
+		<span>박스테스트 </span>
 </body>
 </html>
